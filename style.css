@@ -38,8 +38,6 @@ h1 {
 .sidebar {
   position: relative;
   width: 14.55rem;
-  box-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.16),
-    0 0.1rem 0.2rem rgba(0, 0, 0, 0.32);
 }
 
 .title,
@@ -47,27 +45,15 @@ h1 {
   position: relative;
 }
 
-.title {
-  z-index: 3;
-}
-
-.skills-contact {
-  z-index: 1;
-}
-
-.diagonal {
-  height: 21rem;
-  width: 21rem;
-  background-color: #ff8494;
-  -ms-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
+img {
+  height: 18.55rem;
+  width: 18.55rem;
   z-index: 2;
   position: absolute;
-  top: 5.6rem;
-  left: -10.8rem;
-  box-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.16),
-    0 0.1rem 0.2rem rgba(0, 0, 0, 0.32);
+  top: 0;
+  right: 0;
+  -webkit-filter: drop-shadow(0.02rem 0.07rem 0.03em rgba(0, 0, 0, 0.32));
+  filter: drop-shadow(0.02rem 0.07rem 0.03em rgba(0, 0, 0, 0.32));
 }
 
 .main {
@@ -90,6 +76,9 @@ h1 {
   background-color: #ff8494;
   color: white;
   padding: 2rem 2rem 0 2rem;
+  z-index: 3;
+  box-shadow: 0 -0.15rem 0.1rem rgba(0, 0, 0, 0.16),
+    0 -0.2rem 0.2rem rgba(0, 0, 0, 0.32);
 }
 
 .title p {
@@ -102,8 +91,9 @@ h1 {
   background-color: #f9fc84;
   padding: 14.5rem 0 0 0;
   margin: 0 0 0 2rem;
-  box-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.16),
-    0 0.1rem 0.2rem rgba(0, 0, 0, 0.32);
+  box-shadow: 0 -0.2rem 0.1rem rgba(0, 0, 0, 0.16),
+    0 -0.2em 0.2rem rgba(0, 0, 0, 0.32);
+  z-index: 1;
 }
 
 .skills > h2,
