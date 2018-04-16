@@ -66,13 +66,17 @@ img {
 
 .main h2 {
   border-bottom: #a6fcac 0.8rem solid;
-  margin: 0.5rem 0;
-  padding: 0.5rem 0;
+  margin: 0.65rem 0;
+  padding: 0.65rem 0;
   font-size: 1.2rem;
 }
 
+.main h2:first-child {
+  margin: 1.1rem 0 0.65rem 0;
+}
+
 .main > ul > li > ul > li {
-  margin: 0 0 1rem 0;
+  margin: 0 0 0.5rem 0;
 }
 
 .title {
