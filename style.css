@@ -64,15 +64,16 @@ img {
   margin: 0 2rem;
 }
 
-.main h2 {
+.main > ul > li > h2 {
   border-bottom: #a6fcac 0.8rem solid;
   margin: 0.65rem 0;
-  padding: 0.65rem 0;
+  padding: 0.3rem 0;
   font-size: 1.2rem;
 }
 
-.main h2:first-child {
+.main > ul > li:first-child > h2 {
   margin: 1.1rem 0 0.65rem 0;
+  padding: 0.65rem 0;
 }
 
 .main > ul > li > ul > li {
