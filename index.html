@@ -6,7 +6,7 @@
   <title>Matthias Jenny Resume</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Barlow:100,300,300i,400i,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Barlow:100,300,300i,400i,500,700|Roboto+Mono" rel="stylesheet">
 </head>
 
 <body>
@@ -66,13 +66,17 @@
         <h2>Education</h2>
         <ul>
           <li>
-            <h3>
-              <b>App Academy</b>, 2017</h3>
+            <h3 class="item-title">
+              <b>App Academy</b>
+              <span>2017</span>
+            </h3>
             <p>1000-hour immersive full-stack web development intensive boot camp</p>
           </li>
           <li>
-            <h3>
-              <b>Massachusetts Institute of Technology</b>, PhD Philosophy 2017</h3>
+            <h3 class="item-title">
+              <b>Massachusetts Institute of Technology</b>
+              <span>PhD Philosophy 2017</span>
+            </h3>
             <p>
               <i>Minor: Mathematical Logic</i>
             </p>
@@ -85,15 +89,19 @@
               </li>
             </ul>
             <li>
-              <h3>
-                <b>Brandeis University</b>, MA Philosophy 2012</h3>
+              <h3 class="item-title">
+                <b>Brandeis University</b>
+                <span>MA Philosophy 2012</span>
+              </h3>
               <ul>
                 <li>Research in epistemic logic</li>
               </ul>
             </li>
             <li>
-              <h3>
-                <b>University of Zurich</b>, BA Philosophy 2010</h3>
+              <h3 class="item-title">
+                <b>University of Zurich</b>
+                <span>BA Philosophy 2010</span>
+              </h3>
               <p>
                 <i>Minors: Economics and Sociology</i>
               </p>
@@ -104,20 +112,27 @@
           <h2>Work Experience</h2>
           <ul>
             <li>
-              <h3>
-                <b>App Academy</b> (New York)</h3>
-              <p>
-                <i>Senior Teaching Assistant, March 2018 to Current</i>
-              </p>
-              <p>
-                <i>Teaching Assistant, November 2017 to March 2018</i>
-              </p>
-              <p>
-                <i>Senior Teaching Assistant, Sept 2017 to November 2017</i>
-              </p>
+              <h3 class="item-title">
+                <b>App Academy</b>
+                <span>New York</span>
+              </h3>
+              <div>
+                <i class="item-subtitle">
+                  <span>Senior Teaching Assistant</span>
+                  <span>March 2018 to Current</span>
+                </i>
+                <i class="item-subtitle">
+                  <span>Teaching Assistant</span>
+                  <span>November 2017 to March 2018</span>
+                </i>
+                <i class="item-subtitle">
+                  <span>Senior Teaching Assistant</span>
+                  <span>Sept 2017 to November 2017</span>
+                </i>
+              </div>
               <ul>
                 <li>
-                  Offered position nine weeks into completing App Academy’s twelve-week curriculum
+                  Offered position nine weeks into completing twelve-week curriculum
                 </li>
                 <li>
                   Contributed to internal teaching tools built in Rails and React, implemented password reset feature and wrote tests for analytics
@@ -133,15 +148,20 @@
               </ul>
             </li>
             <li>
-              <h3>
-                <b>PIKSI-Boston</b> (Boston)</h3>
+              <h3 class="item-title">
+                <b>PIKSI-Boston</b>
+                <span>Boston</span>
+              </h3>
               <p>
-                <i>Co-Founder and Graduate Director Sept 2014 to May 2017</i>
+                <i class="item-subtitle">
+                  <span>Co-Founder and Graduate Director</span>
+                  <span>Sept 2014 to May 2017</span>
+                </i>
               </p>
               <ul>
                 <li>
-                  Developed curriculum and organized two week-long summer programs at MIT and UMass-Boston for philosophy undergraduates from
-                  underrepresented groups
+                  Developed curriculum and organized summer programs at MIT and UMass-Boston for philosophy undergraduates from underrepresented
+                  groups
                 </li>
                 <li>
                   Distributed workload for members of a team of 10
@@ -156,10 +176,13 @@
           <ul>
 
             <li>
-              <h3>
+              <h3 class="item-title">
                 <b>
                   <a href="http://andor.fun/" target="_blank">Andor</a>
                 </b>
+                <span class="url">
+                  <a href="http://andor.fun/" target="_blank">andor.fun</a>
+                </span>
               </h3>
               <ul>
                 <li>
@@ -172,36 +195,42 @@
               </ul>
             </li>
             <li>
-              <h3>
+              <h3 class="item-title">
                 <b>
                   <a href="http://www.matthiasjenny.com/sat-zoo" target="_blank">Sat Zoo</a>
                 </b>
+                <span class="url">
+                  <a href="http://www.matthiasjenny.com/sat-zoo" target="_blank">matthiasjenny.com/sat-zoo</a>
+                </span>
               </h3>
               <ul>
                 <li>
                   Developed a benchmarking tool for Boolean satisfiability
                 </li>
                 <li>
-                  Incorporated Web Worker for seamless user experience during complex computations
+                  Incorporated Web Worker for seamless user experience
                 </li>
                 <li>
-                  Wrote custom text editor for easy creation of Boolean formulas using conventional symbols
+                  Wrote custom text editor for easy creation of Boolean formulas
                 </li>
               </ul>
             </li>
             <li>
-              <h3>
+              <h3 class="item-title">
                 <b>
                   <a href="https://www.github.com/m1010j/boolean-logic" target="_blank">boolean-logic</a>
                 </b>
+                <span class="url">
+                  <a href="https://www.github.com/m1010j/boolean-logic" target="_blank">github.com/m1010j/boolean-logic</a>
+                </span>
               </h3>
               <ul>
                 <li>
                   Wrote a JavaScript library from scratch to formulas of Boolean logic relative to a model and to find models
                 </li>
                 <li>
-                  Implemented recursive algorithms for parsing strings into trees representing well-formed formulas and evaluating well-formed
-                  formulas for truth and satisfiability
+                  Implemented recursive algorithms for parsing strings into binary trees and evaluating well-formed formulas for truth and
+                  satisfiability
                 </li>
                 <li>
                   Wrote 71 Jest tests for reliable and maintainable code
@@ -210,10 +239,13 @@
               </ul>
             </li>
             <li>
-              <h3>
+              <h3 class="item-title">
                 <b>
                   <a href="http://www.livepoll.info/" target="_blank">LivePoll</a>
                 </b>
+                <span class="url">
+                  <a href="http://www.livepoll.info/" target="_blank">livepoll.info</a>
+                </span>
               </h3>
               <ul>
                 <li>

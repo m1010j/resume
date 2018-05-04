@@ -1,5 +1,5 @@
 #resume {
-  font-size: 0.97em;
+  font-size: 1em;
   overflow: hidden;
 }
 
@@ -114,7 +114,11 @@ img {
 
 .contact > ul {
   letter-spacing: -0.08rem;
-  line-height: 2.0412;
+  line-height: 1.8;
+}
+
+.contact > ul > li:last-child {
+  padding: 0 0 1rem 0;
 }
 
 .skills > ul {
@@ -129,4 +133,23 @@ img {
 
 .main > ul > li > ul > li > ul {
   padding: 0 0 0 1.1rem;
+}
+
+.item-title,
+.item-subtitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-title,
+.item-subtitle:last-child {
+  margin: 0 0 0.2rem 0;
+}
+
+.url {
+  /* font-family: 'Roboto Mono', monospace; */
+  /* font-size: 0.9rem; */
+  font-style: italic;
 }
