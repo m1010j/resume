@@ -133,11 +133,21 @@ img {
 
 .main > ul > li > ul > li > ul,
 .skills > ul {
-  list-style-type: disc;
+  list-style-type: none;
+}
+
+.main > ul > li > ul > li > ul > li {
+  background: url('bullet.svg') no-repeat left 0.4rem;
+  padding-left: 1.1rem;
+}
+
+.skills > ul > li {
+  background: url('bullet.svg') no-repeat left 0.57rem;
+  padding-left: 1.1rem;
 }
 
 .main > ul > li > ul > li > ul {
-  padding: 0 0 0 1.1rem;
+  padding: 0 0 0 0.4rem;
 }
 
 .item-title,
