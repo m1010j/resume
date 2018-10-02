@@ -70,10 +70,10 @@ img {
 }
 
 .main > ul > li > h2 {
-  border-bottom: #a6fcac 0.8rem solid;
+  border-bottom: #a6fcac 0.6rem solid;
   margin: 0.4rem 0;
   padding: 0.3rem 0;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .main > ul > li:first-child > h2 {
