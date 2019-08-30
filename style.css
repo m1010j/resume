@@ -37,7 +37,7 @@ h2 {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.7rem;
   letter-spacing: 0.2rem;
 }
 
@@ -47,7 +47,7 @@ h2 {
 
 .sidebar {
   position: relative;
-  width: 14.55rem;
+  width: 12.55rem;
 }
 
 .title,
@@ -124,6 +124,10 @@ img {
 
 .contact > ul > li:last-child {
   padding: 0 0 1rem 0;
+}
+
+.contact a {
+  font-size: 0.9em;
 }
 
 .skills > ul {
