@@ -90,6 +90,11 @@ img {
   margin: 0 0 0.5rem 0;
 }
 
+#projects > li > ul > li {
+  background: none;
+  padding-left: 0;
+}
+
 .title {
   background-color: #ff8494;
   color: white;
@@ -124,7 +129,7 @@ img {
 
 .contact > ul {
   letter-spacing: -0.08rem;
-  line-height: 2.6;
+  line-height: 1.4;
 }
 
 .contact > ul > li:last-child {
@@ -132,7 +137,7 @@ img {
 }
 
 .contact a {
-  font-size: 0.9em;
+  font-size: 0.9rem;
 }
 
 .skills > ul {
