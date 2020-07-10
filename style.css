@@ -1,3 +1,8 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 #resume {
   font-size: 1em;
   overflow: hidden;
@@ -6,7 +11,7 @@
 body {
   display: flex;
   flex-direction: row;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   font-weight: 300;
   line-height: 1;
   width: 52.6rem;
@@ -141,13 +146,19 @@ img {
 }
 
 .main > ul > li > ul > li > ul > li {
-  background: url('bullet.svg') no-repeat left 0.4rem;
+  background: url("bullet.svg") no-repeat left 0.4rem;
   padding-left: 1.1rem;
 }
 
 .skills > ul > li {
-  background: url('bullet.svg') no-repeat left 0.57rem;
-  padding-left: 1.1rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: -0.5rem;
+}
+
+.skills > ul li > span {
+  left: 0.2rem;
 }
 
 .main > ul > li > ul > li > ul {
@@ -168,7 +179,31 @@ img {
 }
 
 .url {
-  /* font-family: 'Roboto Mono', monospace; */
-  /* font-size: 0.9rem; */
   font-style: italic;
+}
+
+.arc {
+  border: 5px solid #000;
+  border-radius: 50%;
+  height: 5px;
+  width: 5px;
+  transform: rotate(315deg);
+}
+
+.arc--25percent {
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.arc--50percent {
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+
+.arc--75percent {
+  border-top-color: transparent;
+}
+
+.arc--100percent {
 }
