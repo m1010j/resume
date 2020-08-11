@@ -110,7 +110,7 @@ img {
 
 .skills-contact {
   background-color: #e2d5e8;
-  padding: 14.5rem 0 0 0;
+  padding: 13rem 0 0 0;
   margin: 0 0 0 2rem;
   z-index: 1;
 }
@@ -211,4 +211,14 @@ img {
 }
 
 .arc--100percent {
+}
+
+.oss-contributions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.oss-contributions > li > .item-title > b > a {
+  margin-right: 0.3rem;
 }
